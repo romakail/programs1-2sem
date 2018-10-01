@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1510072561 source:c:\users\Роман\desktop\программы\tree\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"tree.h"
+
+1510073339 
+
+1510073339 source:c:\users\Роман\desktop\программы\tree\tree.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"tree.h"
+
+1510073130 c:\users\Роман\desktop\программы\tree\tree.h
+
+1510608891 source:/root/Desktop/TREE/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"tree.h"
+	"akinator.h"
+
+1510608108 /root/Desktop/TREE/tree.h
+
+1510684896 source:/root/Desktop/TREE/tree.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"tree.h"
+
+1512402506 source:/root/Desktop/TREE/akinator.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"akinator.h"
+
+1512400718 /root/Desktop/TREE/akinator.h
+	"tree.h"
+
+1510144942 /root/Desktop/TREE/test.h
+

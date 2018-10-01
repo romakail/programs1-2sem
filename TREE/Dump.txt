@@ -1,0 +1,29 @@
+digraph tree{
+rankdir=HR;
+head [label="nElements : 13"];
+elem1 [shape=record,label="{ parent\n0x55f374c6cfa0 | ptr 1\n 0x55f374c6c490 | data\n the incredible Hulk | { <l>left\n (nil) | <r> right\n (nil) }}"];
+elem2 [shape=record,label="{ parent\n0x55f374c6cf50 | ptr 2\n 0x55f374c6cfa0 | data\n from Kripton | { <l>left\n 0x55f374c6c490 | <r> right\n 0x55f374c6c4e0 }}"];
+elem3 [shape=record,label="{ parent\n0x55f374c6cfa0 | ptr 3\n 0x55f374c6c4e0 | data\n Superman | { <l>left\n (nil) | <r> right\n (nil) }}"];
+elem4 [shape=record,label="{ parent\n0x55f374c6cf00 | ptr 4\n 0x55f374c6cf50 | data\n a troll | { <l>left\n 0x55f374c6cfa0 | <r> right\n 0x55f374c6cff0 }}"];
+elem5 [shape=record,label="{ parent\n0x55f374c6cf50 | ptr 5\n 0x55f374c6cff0 | data\n Shrek | { <l>left\n (nil) | <r> right\n (nil) }}"];
+elem6 [shape=record,label="{ parent\n0x55f374c6ceb0 | ptr 6\n 0x55f374c6cf00 | data\n an animal | { <l>left\n 0x55f374c6cf50 | <r> right\n 0x55f374c6d040 }}"];
+elem7 [shape=record,label="{ parent\n0x55f374c6cf00 | ptr 7\n 0x55f374c6d040 | data\n Rocket Racoon | { <l>left\n (nil) | <r> right\n (nil) }}"];
+elem8 [shape=record,label="{ parent\n0x55f374c6bc20 | ptr 8\n 0x55f374c6ceb0 | data\n a plant | { <l>left\n 0x55f374c6cf00 | <r> right\n 0x55f374c6d090 }}"];
+elem9 [shape=record,label="{ parent\n0x55f374c6ceb0 | ptr 9\n 0x55f374c6d090 | data\n Groot | { <l>left\n (nil) | <r> right\n (nil) }}"];
+elem10 [shape=record,label="{ parent\n(nil) | ptr 10\n 0x55f374c6bc20 | data\n a person | { <l>left\n 0x55f374c6ceb0 | <r> right\n 0x55f374c6d0e0 }}"];
+elem11 [shape=record,label="{ parent\n0x55f374c6d0e0 | ptr 11\n 0x55f374c6d130 | data\n Tony Stark | { <l>left\n (nil) | <r> right\n (nil) }}"];
+elem12 [shape=record,label="{ parent\n0x55f374c6bc20 | ptr 12\n 0x55f374c6d0e0 | data\n a soldier | { <l>left\n 0x55f374c6d130 | <r> right\n 0x55f374c6d180 }}"];
+elem13 [shape=record,label="{ parent\n0x55f374c6d0e0 | ptr 13\n 0x55f374c6d180 | data\n Captain America | { <l>left\n (nil) | <r> right\n (nil) }}"];
+elem10:<l>->elem8[color="red",label="NO"];
+elem8:<l>->elem6[color="red",label="NO"];
+elem6:<l>->elem4[color="red",label="NO"];
+elem4:<l>->elem2[color="red",label="NO"];
+elem2:<l>->elem1[color="red",label="NO"];
+elem2:<r>->elem3[color="green",label="YES"];
+elem4:<r>->elem5[color="green",label="YES"];
+elem6:<r>->elem7[color="green",label="YES"];
+elem8:<r>->elem9[color="green",label="YES"];
+elem10:<r>->elem12[color="green",label="YES"];
+elem12:<l>->elem11[color="red",label="NO"];
+elem12:<r>->elem13[color="green",label="YES"];
+}

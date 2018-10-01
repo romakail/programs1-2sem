@@ -1,0 +1,37 @@
+scan
+
+popreg a
+push 1 
+popreg b
+push 1 
+popreg c
+
+call umnozh
+
+label umnozh
+
+pushreg b
+pushreg c
+mult
+popreg c
+
+pushreg b
+push 1
+add
+popreg b
+
+pushreg b
+pushreg a
+
+jumpne finish
+
+call umnozh
+
+ret
+
+label finish
+
+pushreg c
+out
+
+End

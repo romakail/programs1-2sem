@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1524424720 source:/home/roma/Desktop/Progs/bool massive/main.cpp
+	<stdio.h>
+	<assert.h>
+	<stdlib.h>
+

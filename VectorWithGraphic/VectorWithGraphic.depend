@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1524423086 source:/home/roma/Desktop/Progs/VectorWithGraphic/main.cpp
+	<stdio.h>
+	<assert.h>
+	<stdlib.h>
+	<math.h>
+

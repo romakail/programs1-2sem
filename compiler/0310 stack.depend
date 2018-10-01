@@ -1,0 +1,267 @@
+# depslib dependency file v1.0
+1509199216 source:c:\users\Роман\desktop\программы\0310 stack\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"Stack.h"
+	"printfscanf.h"
+	"Processor.h"
+	"Compiler.h"
+
+1509400808 h"
+
+1508970943 c:\users\Роман\desktop\программы\0310 stack\stack.h
+
+1507579917 c:\users\Роман\desktop\программы\0310 stack\printfscanf.h
+
+1509195580 c:\users\Роман\desktop\программы\0310 stack\processor.h
+
+1508967292 c:\users\Роман\desktop\программы\0310 stack\compiler.h
+
+1507579917 source:c:\users\Роман\desktop\программы\0310 stack\printfscanf.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"printfscanf.h"
+
+1509395524 nf.h"
+
+1509199216 source:c:\users\Роман\desktop\программы\0310 stack\processor.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<math.h>
+	"Stack.h"
+	"printfscanf.h"
+	"Processor.h"
+	"Compiler.h"
+
+1509200069 source:c:\users\Роман\desktop\программы\0310 stack\stack.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<math.h>
+	<ctime>
+	"Stack.h"
+	"printfscanf.h"
+
+1508970868 source:c:\users\Роман\desktop\программы\0310 stack\compiler.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"Compiler.h"
+
+1509199216 source:c:\users\Роман\desktop\программы\2810 compiler\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"Stack.h"
+	"printfscanf.h"
+	"Processor.h"
+	"Compiler.h"
+
+1509399584 c:\users\Роман\desktop\программы\2810 compiler\stack.h
+
+1507579917 c:\users\Роман\desktop\программы\2810 compiler\printfscanf.h
+
+1509395949 c:\users\Роман\desktop\программы\2810 compiler\processor.h
+
+1509391244 c:\users\Роман\desktop\программы\2810 compiler\compiler.h
+
+1507579917 source:c:\users\Роман\desktop\программы\2810 compiler\printfscanf.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"printfscanf.h"
+
+1509400808 source:c:\users\Роман\desktop\программы\2810 compiler\processor.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<math.h>
+	"Stack.h"
+	"printfscanf.h"
+	"Processor.h"
+	"Compiler.h"
+	"processorCommands.h"
+	"commands.h"
+
+1509395524 source:c:\users\Роман\desktop\программы\2810 compiler\stack.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<math.h>
+	<ctime>
+	"Stack.h"
+	"printfscanf.h"
+
+1509400808 source:c:\users\Роман\desktop\программы\2810 compiler\compiler.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"Compiler.h"
+	"compilercommands.h"
+	"commands.h"
+
+1509395003 c:\users\Роман\desktop\программы\2810 compiler\compilercommands.h
+
+1509389987 c:\users\Роман\desktop\программы\2810 compiler\commands.h
+
+1509401008 c:\users\Роман\desktop\программы\2810 compiler\processorcommands.h
+
+1509400810 source:/root/Desktop/2810 compiler/Compiler.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"Compiler.h"
+	"compilercommands.h"
+	"commands.h"
+
+1509391246 /root/Desktop/2810 compiler/Compiler.h
+
+1509395004 /root/Desktop/2810 compiler/compilercommands.h
+
+1509833430 /root/Desktop/2810 compiler/commands.h
+
+1509199218 source:/root/Desktop/2810 compiler/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"Stack.h"
+	"printfscanf.h"
+	"Processor.h"
+	"Compiler.h"
+
+1509399586 /root/Desktop/2810 compiler/Stack.h
+
+1507579918 /root/Desktop/2810 compiler/printfscanf.h
+
+1509395950 /root/Desktop/2810 compiler/Processor.h
+
+1507579918 source:/root/Desktop/2810 compiler/printfscanf.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"printfscanf.h"
+
+1509400810 source:/root/Desktop/2810 compiler/Processor.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<math.h>
+	"Stack.h"
+	"printfscanf.h"
+	"Processor.h"
+	"Compiler.h"
+	"processorCommands.h"
+	"commands.h"
+
+1509401010 /root/Desktop/2810 compiler/processorCommands.h
+
+1509395526 source:/root/Desktop/2810 compiler/Stack.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<math.h>
+	<ctime>
+	"Stack.h"
+	"printfscanf.h"
+
+1512934496 source:/root/Desktop/assembler+processor/Compiler.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"Compiler.h"
+	"compilercommands.h"
+	"commands.h"
+
+1509391246 /root/Desktop/assembler+processor/Compiler.h
+
+1509395004 /root/Desktop/assembler+processor/compilercommands.h
+
+1509833430 /root/Desktop/assembler+processor/commands.h
+
+1509199218 source:/root/Desktop/assembler+processor/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"Stack.h"
+	"printfscanf.h"
+	"Processor.h"
+	"Compiler.h"
+
+1509399586 /root/Desktop/assembler+processor/Stack.h
+
+1513117299 /root/Desktop/assembler+processor/printfscanf.h
+
+1509395950 /root/Desktop/assembler+processor/Processor.h
+
+1507579918 source:/root/Desktop/assembler+processor/printfscanf.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"printfscanf.h"
+
+1509400810 source:/root/Desktop/assembler+processor/Processor.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<math.h>
+	"Stack.h"
+	"printfscanf.h"
+	"Processor.h"
+	"Compiler.h"
+	"processorCommands.h"
+	"commands.h"
+
+1509401010 /root/Desktop/assembler+processor/processorCommands.h
+
+1509395526 source:/root/Desktop/assembler+processor/Stack.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<math.h>
+	<ctime>
+	"Stack.h"
+	"printfscanf.h"
+

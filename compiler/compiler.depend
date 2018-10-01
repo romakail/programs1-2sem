@@ -1,0 +1,161 @@
+# depslib dependency file v1.0
+1513727717 source:/root/Desktop/compiler/compiler.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<cmath>
+	"compiler.h"
+	"tree.h"
+	"operations.h"
+	"functions.h"
+	"operations.h"
+	"functions.h"
+	"operations.h"
+	"functions.h"
+	"operations.h"
+
+1513723712 /root/Desktop/compiler/compiler.h
+	"tree.h"
+	"operations.h"
+	"functions.h"
+
+1513168963 source:/root/Desktop/compiler/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<cmath>
+	"compiler.h"
+
+1513712949 /root/Desktop/compiler/operations.h
+
+1513169773 /root/Desktop/compiler/tree.h
+	"commands.h"
+
+1513714476 source:/root/Desktop/compiler/tree.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<cmath>
+	"tree.h"
+	"compiler.h"
+	"operations.h"
+	"functions.h"
+
+1513713454 /root/Desktop/compiler/functions.h
+
+1509833430 /root/Desktop/compiler/commands.h
+
+1513166358 source:/root/Desktop/compiler/asmCompiler.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"asmCompiler.h"
+	"compilercommands.h"
+	"assemblerСommands.h"
+
+1513163758 /root/Desktop/compiler/asmCompiler.h
+
+1513121096 /root/Desktop/compiler/compilercommands.h
+
+1509833430 /root/Desktop/compiler/assemblerСommands.h
+
+1513166446 source:/root/Desktop/compiler/printfscanf.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"printfscanf.h"
+
+1513117299 /root/Desktop/compiler/printfscanf.h
+
+1513166446 source:/root/Desktop/compiler/Processor.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<math.h>
+	"Stack.h"
+	"printfscanf.h"
+	"Processor.h"
+	"asmCompiler.h"
+	"processorCommands.h"
+	"assemblerСommands.h"
+
+1513166564 /root/Desktop/compiler/Stack.h
+
+1513166585 /root/Desktop/compiler/Processor.h
+	"Stack.h"
+
+1509401010 /root/Desktop/compiler/processorCommands.h
+
+1513166773 source:/root/Desktop/compiler/Stack.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<math.h>
+	<ctime>
+	"Stack.h"
+	"printfscanf.h"
+
+1513738516 source:/home/roma/Desktop/Progs/compiler/compiler.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<cmath>
+	"compiler.h"
+	"tree.h"
+	"operations.h"
+	"functions.h"
+	"operations.h"
+	"functions.h"
+	"operations.h"
+	"functions.h"
+	"operations.h"
+
+1524417551 /home/roma/Desktop/Progs/compiler/compiler.h
+	"tree.h"
+	"operations.h"
+	"functions.h"
+
+1513180572 /home/roma/Desktop/Progs/compiler/tree.h
+	"commands.h"
+
+1513723748 /home/roma/Desktop/Progs/compiler/operations.h
+
+1513724254 /home/roma/Desktop/Progs/compiler/functions.h
+
+1513179762 source:/home/roma/Desktop/Progs/compiler/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<cmath>
+	"compiler.h"
+
+1513725276 source:/home/roma/Desktop/Progs/compiler/tree.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<cmath>
+	"tree.h"
+	"compiler.h"
+	"operations.h"
+	"functions.h"
+

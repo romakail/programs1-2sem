@@ -1,0 +1,141 @@
+scan
+scan
+scan
+
+popreg c
+popreg b
+popreg a
+
+pushreg a
+push 0
+jumpe a
+
+pushreg a
+push 0
+jumpne b
+
+label a
+
+pushreg b
+push 0
+jumpe c
+
+pushreg b
+push 0
+jumpne d
+
+label c
+
+pushreg c
+push 0
+jumpe e
+
+pushreg c
+push 0
+jumpne f
+
+label e
+push 3
+out
+jump finish
+
+label f
+push 0
+out
+jump finish
+
+label d
+
+push 1
+out
+
+push 0
+pushreg c
+pushreg b
+div
+diff
+out
+jump finish
+
+label b
+
+pushreg b
+pushreg b
+mult
+push 4
+pushreg a
+pushreg c
+mult
+mult
+diff
+popreg d
+
+pushreg d
+push 0
+jumpe g
+
+pushreg d
+push 0
+jumpm h
+
+pushreg d
+push 0
+jumpl i
+
+label g
+
+push 1
+out
+
+push 0
+pushreg b
+pushreg a
+div
+push 2
+div
+diff
+out
+jump finish
+
+label h
+
+push 2
+out
+
+push 0
+pushreg b
+diff
+pushreg d
+sqrt
+diff
+pushreg a
+div
+push 2
+div
+out
+
+push 0
+pushreg b
+diff
+pushreg d
+sqrt
+add
+pushreg a
+div
+push 2
+div
+out
+
+jump finish
+
+label i
+
+push 0
+out
+jump finish
+
+label finish
+
+
+End
+

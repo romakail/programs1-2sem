@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1526830271 source:/home/roma/Desktop/Progs/1404 List&Hash/main.cpp
+	<stdio.h>
+	"Hash.h"
+
+1526830565 /home/roma/Desktop/Progs/1404 List&Hash/List.h
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1526829611 /home/roma/Desktop/Progs/1404 List&Hash/Hash.h
+	"List.h"
+	"math.h"
+

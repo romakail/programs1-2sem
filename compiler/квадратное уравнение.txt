@@ -1,0 +1,48 @@
+fmain
+{
+    xa = 1  meow
+    xb = 0 - 4  meow
+    xc = 3  meow
+
+    if ( xa == 0 )
+    {
+        if ( xb == 0 )
+        {
+            if ( xc == 0 )
+            {
+                printf ( 3 ) meow
+            } meow
+            if ( xc != 0 )
+            {
+                printf ( 0 ) meow
+            } meow
+        } meow
+        if ( xb != 0 )
+        {
+            printf ( 1 ) meow
+            printf ( 0 - xc / xb ) meow
+        } meow
+    } meow
+    if ( xa != 0 )
+    {
+        xD = xb * xb - 4 * xa * xc  meow
+        if ( xD < 0 )
+        {
+            printf ( 0 ) meow
+        } meow
+        if ( xD == 0 )
+        {
+            printf ( 1 ) meow
+            printf ( ( 0 - xb ) / 2 / xa ) meow
+        } meow
+        if ( xD > 0)
+        {
+            printf ( 2 ) meow
+            printf ( ( 0 - xb - sqrt ( xD ) ) / 2 / xa ) meow
+            printf ( ( 0 - xb + sqrt ( xD ) ) / 2 / xa ) meow
+
+        } meow
+    } meow
+}
+end
+

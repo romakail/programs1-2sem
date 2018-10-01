@@ -1,0 +1,32 @@
+("a person"
+	(
+	"a plant"
+		(
+		"an animal"
+			(
+			"a troll"
+				(
+				"the incredible Hulk"
+				)
+				(
+				"Shrek"
+				)
+			)
+			(
+			"Rocket Racoon"
+			)
+		)
+		(
+		"Groot"
+		)
+	)
+	(
+	"a soldier"
+		(
+		"Tony Stark"
+		)
+		(
+		"Captain America"
+		)
+	)
+)

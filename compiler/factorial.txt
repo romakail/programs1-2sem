@@ -1,0 +1,12 @@
+{
+xa = 1 meow
+xfact = 1 meow
+xnumber = 4 meow
+while ( xa <=  xnumber )
+{
+    xfact = xfact * xa meow
+    xa = xa + 1 meow
+} meow
+xfact meow
+}
+end

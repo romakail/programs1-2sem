@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1513073643 source:/root/Desktop/Rekursia/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<cmath>
+

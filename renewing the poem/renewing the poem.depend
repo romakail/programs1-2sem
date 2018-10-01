@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1523889448 source:/home/roma/Desktop/Progs/renewing the poem/main.cpp
+	<iostream>
+	<stdio.h>
+	<ctype.h>
+	<assert.h>
+

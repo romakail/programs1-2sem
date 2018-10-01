@@ -1,0 +1,32 @@
+fmain
+{
+    xa = cmeow ( 1 , 2 , 7 ) meow
+    xb = cgav ( ) meow
+    printf ( xa ) meow
+    printf ( xb ) meow
+    printf ( cmoo ( 1 , 2 ) ) meow
+    printf ( cmoo ( 4 , 3 ) ) meow
+    printf ( cmoo ( 3 , 1000 ) ) meow
+
+}
+fmeow ( ax , ay , az )
+{
+    sqrt ( ax * ay + az / ax ) meow
+}
+fgav ( )
+{
+    if ( 5  > 1 )
+    {
+        159 meow
+    } meow
+}
+fmoo ( aa , ab )
+{
+    if ( aa > ab )
+    { aa meow } meow
+    if ( aa <= ab )
+    { ab meow } meow
+
+}
+
+end

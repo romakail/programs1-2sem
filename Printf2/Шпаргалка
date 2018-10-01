@@ -1,0 +1,24 @@
+ 1111 1111
+edx:eax
+
+div rdi = 10
+
+edx > printf > xor
+
+loop
+
+
+
+mov, rax
+
+mov rbx, rax
+and rbx, 1
+print > rbx
+
+shr rax, 1
+
+loop
+
+
+
+

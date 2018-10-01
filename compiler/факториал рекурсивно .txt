@@ -1,0 +1,19 @@
+fmain
+{
+    xn = 6 meow
+    xcounter = 0 meow
+    xfac = 1 meow
+    cfac ( xn , xcounter , xfac ) meow
+    printf ( xfac ) meow
+}
+ffac ( an , acounter , afac )
+{
+    xcounter = acounter + 1 meow
+    xfac = afac * xcounter meow
+    if ( acounter < an - 1 )
+    {
+        cfac ( xn , xcounter , xfac ) meow
+    } meow
+}
+end
+

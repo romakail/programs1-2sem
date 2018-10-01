@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1523307786 source:/home/roma/Desktop/Progs/SFMLtest/main.cpp
+	<SFML/Graphics.hpp>
+	<stdio.h>
+	<assert.h>
+	<stdlib.h>
+	<math.h>
+

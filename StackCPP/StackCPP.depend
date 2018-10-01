@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1520510211 source:/root/Desktop/StackCPP/main.cpp
+	<stdio.h>
+	<assert.h>
+	<stdio.h>
+	<iostream>
+	<vector>
+	<cstdlib>
+	<string>
+	<stdexcept>
+	"Stack.h"
+
+1520542820 /root/Desktop/StackCPP/Stack.h
+	<stdio.h>
+	<assert.h>
+	<iostream>
+
+1520503630 source:/root/Desktop/StackCPP/Stack.cpp
+	"Stack.h"
+

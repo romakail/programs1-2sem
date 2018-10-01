@@ -1,0 +1,18 @@
+digraph Elements{
+rankdir=HR;
+error [shape=record,label="error detector returned : 0"];
+ head [shape=record,label="head\n0x559d74cb6ca0 | tail\n0x559d74cb6c20 | nElement\n5"];
+elem0 [shape=record,label="<pt> ptr\n 0x559d74cb6ca0 | data\n 13 |<n> next\n 0x559d74cb6c80 |<p> prev\n(nil)" ];
+elem1 [shape=record,label="<pt> ptr\n 0x559d74cb6c80 | data\n 12 |<n> next\n 0x559d74cb6c60 |<p> prev\n0x559d74cb6ca0" ];
+elem2 [shape=record,label="<pt> ptr\n 0x559d74cb6c60 | data\n 11 |<n> next\n 0x559d74cb6c40 |<p> prev\n0x559d74cb6c80" ];
+elem3 [shape=record,label="<pt> ptr\n 0x559d74cb6c40 | data\n 10 |<n> next\n 0x559d74cb6c20 |<p> prev\n0x559d74cb6c60" ];
+elem4 [shape=record,label="<pt> ptr\n 0x559d74cb6c20 | data\n 100 |<n> next\n (nil) |<p> prev\n0x559d74cb6c40" ];
+elem0:<n>->elem1:<pt>;
+elem1:<n>->elem2:<pt>;
+elem2:<n>->elem3:<pt>;
+elem3:<n>->elem4:<pt>;
+elem1:<p>->elem0:<pt>;
+elem2:<p>->elem1:<pt>;
+elem3:<p>->elem2:<pt>;
+elem4:<p>->elem3:<pt>;
+}

@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1509487109 source:c:\users\Роман\desktop\программы\list\list.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<ctime>
+	"list.h"
+
+1509877853 
+
+1509486644 c:\users\Роман\desktop\программы\list\list.h
+
+1509488859 source:c:\users\Роман\desktop\программы\list\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"list.h"
+
+1509877807 source:c:\users\Роман\desktop\программы\0511 list\list.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<ctime>
+	"list.h"
+
+1509879834 c:\users\Роман\desktop\программы\0511 list\list.h
+
+1509877853 source:c:\users\Роман\desktop\программы\0511 list\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"list.h"
+
+1510003886 source:/root/Desktop/0511 List/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	"list.h"
+
+1510000963 /root/Desktop/0511 List/list.h
+
+1510004800 source:/root/Desktop/0511 List/list.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<cctype>
+	<assert.h>
+	<ctime>
+	"list.h"
+
